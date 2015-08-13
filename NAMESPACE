@@ -2,6 +2,9 @@
 
 export(arsq_draw_logo)
 export(load_logo)
+export(scale_color_arsquanta)
+export(scale_colour_arsquanta)
+export(scale_fill_arsquanta)
 export(theme_arsquanta)
 import(ggplot2)
 import(grid)
