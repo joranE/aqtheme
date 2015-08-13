@@ -1,0 +1,14 @@
+Package: aqtheme
+Type: Package
+Title: ArsQuanta ggplot2 theme
+Version: 0.1
+Date: 2015-08-13
+Author: Joran Elias
+Imports:
+  ggplot2,
+  ggthemes,
+  grid
+Maintainer: Joran Elias <joran@arsquanta.com>
+Description: ArsQuanta ggplot2 theme and related to functions to draw ggplot graphs with a logo.
+License: GPL
+LazyData: TRUE
