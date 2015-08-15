@@ -5,6 +5,13 @@
 #' @export
 #' @import ggplot2
 #' @importFrom ggthemes theme_foundation
+#' @examples
+#' library(ggplot2)
+#' p <- ggplot(mtcars,aes(x = mpg,y = hp)) +
+#'       geom_point(aes(color = cyl)) +
+#'       labs(color = "Color",x = "MPG",y = "Horsepower") +
+#'       theme_arsquanta()
+#' p
 theme_arsquanta <- function(base_size = 12, base_family = "sans") {
   (theme_foundation(base_size = base_size, base_family = base_family)
    + theme(
@@ -37,6 +44,7 @@ theme_arsquanta <- function(base_size = 12, base_family = "sans") {
 #' @export
 #' @import grid
 #' @examples
+#' library(ggplot2)
 #' p <- ggplot(mtcars,aes(x = mpg,y = hp)) +
 #'       geom_point(aes(color = cyl)) +
 #'       labs(color = "Color",x = "MPG",y = "Horsepower") +
